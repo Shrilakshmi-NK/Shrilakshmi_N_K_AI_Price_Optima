@@ -1,0 +1,19 @@
+# =====================================
+# Ignore large Kaggle dataset files
+# =====================================
+data/train.csv
+data/test.csv
+data/*.zip
+
+# Optional: also ignore processed large files (uncomment if you want)
+# data/processed/train_processed.csv
+# data/processed/test_processed.csv
+
+# Common temporary / system files (good to have)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
